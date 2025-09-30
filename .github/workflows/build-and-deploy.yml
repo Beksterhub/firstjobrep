@@ -50,6 +50,7 @@ jobs:
           name: production-files
           path: ./build
 # deploy to GitHub Pages, using github actions marketplace action peaceiris/actions-gh-pages
+#remember permission
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
